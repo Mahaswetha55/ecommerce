@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(60, 51, 85);
+    color: white;
+    text-align: center;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+
+.product {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.product:hover{
+    background: plum;
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.price {
+    font-weight: bold;
+    color: green;
+}
+.price:hover{
+    background: blanchedalmond;
+}
+
+button{
+    background: aqua;
+    border-radius: 10px;
+}
+button:hover{
+    background: olive;
+}
+
+footer {
+    background-color: rgb(60, 51, 85);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
